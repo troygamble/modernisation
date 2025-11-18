@@ -124,9 +124,7 @@ const maxStep = 12; // 0..12
 									<div class="deck-subtle">System state</div>
 									<div class="deck-title-lg">Why the system cannot self-correct</div>
 									<p class="deck-body-lg">
-										Service Delivery, Projects, Systems, and Sales operate in parallel lanes.
-										Ownership is fragmented, handoffs are slow, and governance is reactive. The
-										current structure is optimised for BAU, not transformation.
+										Our success and growth have naturally introduced complexity. While our teams excel within their day-to-day functions, the connections <em>between</em> those functions are where friction occurs. The current structure is optimized for stability, not for the rapid, cross-functional change required to scale.
 									</p>
 									<div class="lane-grid fractured">
 										<div class="lane-col">
@@ -141,12 +139,11 @@ const maxStep = 12; // 0..12
 											<div class="lane-head">Workflow Automation</div>
 											<div class="lane-sub">Manual processes · Tool friction · Untapped data</div>
 										</div>
-										<div class="lane-col">
-											<div class="lane-head">Executive Oversight</div>
-											<div class="lane-sub">Project noise · High-cost meetings · Slow decisions</div>
-										</div>
-										<div class="fracture-line"></div>
+									<div class="lane-col">
+										<div class="lane-head">Executive Oversight</div>
+										<div class="lane-sub">Pulled into operational details · Decision friction</div>
 									</div>
+								</div>
 									<div class="lane-conclusion">
 										<div class="conclusion-icon">
 											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
@@ -708,7 +705,7 @@ const maxStep = 12; // 0..12
 										<div class="mini-label">The Remit & Authority</div>
 										<ul class="pill-list">
 											<li class="pill pill-strong">
-												Establish and lead the cross-functional Modernisation Program as Program Director.
+												Director - Programs, Automation & Modernisation
 											</li>
 											<li class="pill pill-strong">
 												Assume ownership of the PMO uplift, setting the new standards for project delivery governance.
@@ -736,7 +733,7 @@ const maxStep = 12; // 0..12
 								</div>
 
 								<div class="deck-body-lg mt-lg max-width-md">
-									This is the work you brought me in to do. This charter provides the clarity and authority required to execute effectively. It's an accountable, low-risk plan to unlock the modern capabilities our customers—and our future—demand.
+									This charter provides the clarity and authority required to execute effectively. It's an accountable, low-risk plan to unlock the modern capabilities our customers—and our future—demand.
 								</div>
 
 								<div class="mandate-quote-card mt-lg">
