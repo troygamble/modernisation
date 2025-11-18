@@ -355,16 +355,15 @@ button {
 .lane-grid.fractured .lane-col:nth-child(4) {
 	transform: translateY(15px);
 }
-.lane-grid.fractured::before {
-	content: '';
+.fracture-line {
 	position: absolute;
 	top: 50%;
-	left: 0;
-	right: 0;
+	left: 5%;
+	right: 5%;
 	height: 1px;
 	background: linear-gradient(90deg, transparent, var(--danger), transparent);
-	opacity: 0.4;
-	transform: translateY(-5px) rotate(-1.5deg);
+	opacity: 0.5;
+	transform: translateY(-8px) rotate(-1.5deg);
 	pointer-events: none;
 }
 .lane-col {
@@ -898,4 +897,131 @@ button {
 }
 .pill.danger::before {
 	color: var(--danger);
+}
+
+/* Governance Model (Slide 6) */
+.governance-model {
+	display: grid;
+	grid-template-columns: 1.2fr 0.8fr;
+	gap: 32px;
+}
+.model-col {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+.cadence-item {
+	padding: 16px;
+	border-radius: var(--radius-lg);
+	background: #0d0d16;
+	border: 1px solid var(--border-subtle);
+}
+.cadence-title {
+	font-weight: 500;
+	margin-bottom: 6px;
+}
+.cadence-text {
+	font-size: 0.9rem;
+	color: var(--muted);
+}
+
+.esc-path {
+	text-align: center;
+}
+.esc-node-path {
+	padding: 8px 16px;
+	border-radius: var(--radius-md);
+	background: #141422;
+	border: 1px solid var(--border-subtle);
+}
+.esc-node-path.accent {
+	border-color: var(--accent);
+}
+.esc-node-path.exec {
+	background: transparent;
+	font-weight: 500;
+}
+.esc-arrow-path {
+	font-size: 1.5rem;
+	color: var(--muted);
+	margin: 4px 0;
+}
+.esc-arrow-path-exec {
+	font-size: 0.8rem;
+	color: var(--accent);
+	margin: 8px 0;
+	font-weight: 500;
+	letter-spacing: 0.05em;
+}
+
+/* Engine Flow (Pillar 2: Modernisation Engine) */
+.engine-flow {
+	display: grid;
+	grid-template-columns: 1fr auto 1fr auto 1fr;
+	align-items: stretch;
+	gap: 24px;
+	margin-top: 24px;
+}
+.engine-stage {
+	padding: 24px;
+	border-radius: var(--radius-lg);
+	background: #0a0a12;
+	border: 1px solid var(--border-subtle);
+	text-align: center;
+}
+.engine-stage.accent {
+	border-color: var(--accent-soft);
+	background: linear-gradient(145deg, #0f141b, #081016);
+}
+.engine-icon {
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.05);
+	color: var(--muted);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto 16px;
+}
+.engine-stage.accent .engine-icon {
+	background: var(--accent-soft);
+	color: var(--accent);
+}
+.engine-title {
+	font-size: 1.2rem;
+	font-weight: 500;
+	margin-bottom: 8px;
+}
+.engine-text {
+	font-size: 0.9rem;
+	color: var(--muted);
+	line-height: 1.6;
+}
+.engine-arrow {
+	font-size: 2rem;
+	color: var(--muted);
+	align-self: center;
+}
+
+/* Quote elements (Pillar 3: Commercial Opportunity) */
+.market-quote {
+	font-size: 1.8rem;
+	font-weight: 500;
+	max-width: 700px;
+	margin: 16px auto 0;
+	line-height: 1.4;
+	color: var(--text);
+	border-left: 3px solid var(--accent);
+	padding-left: 24px;
+	text-align: left;
+}
+.philosophy-quote {
+	margin-top: 32px;
+	font-size: 1.1rem;
+	font-style: italic;
+	color: var(--muted);
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
 }
