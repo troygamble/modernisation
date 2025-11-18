@@ -256,60 +256,48 @@ const maxStep = 12; // 0..12
 					{/if}
 
 {#if step === 4}
-						<section
-							in:fade={{ duration: 420 }}
-							out:fade={{ duration: 220 }}
-							class="deck-abs-center deck-fade deck-rise deck-flow-in"
-						>
-							<div class="deck-block">
-								<div class="deck-wide">
-									<div class="deck-subtle">Workflow capture</div>
-									<div class="deck-title-lg">Maturing for the Next Stage of Growth</div>
-									<div class="deck-body-sm deck-mute deck-hint mb-lg">
-										Our current processes have served us well, but are now straining under our success. To scale, we need to evolve.
-									</div>
+					<section in:fade={{ duration: 420 }} out:fade={{ duration: 220 }} class="deck-abs-center">
+						<div class="deck-wide">
+							<div class="deck-subtle">Workflow Capture</div>
+							<div class="deck-title-lg">A Snapshot of Our Operating Reality</div>
+							<div class="deck-body-sm deck-mute deck-hint mb-lg">
+								As we've grown, our processes have become naturally complex. This plan is about introducing the structure to manage that complexity at scale.
+							</div>
 
-									<div class="two-col">
-										<div class="col">
-											<div class="mini-label">From chaos to clarity</div>
-											<div class="before-after-grid">
-												<!-- BEFORE STATE -->
-												<div class="state-card before-state">
-													<div class="state-title">Before: Growth Strain</div>
-													<ul class="pill-list" style="text-align: left; margin-top: 12px;">
-														<li class="pill">Organic Processes</li>
-														<li class="pill">Reactive Decisions</li>
-														<li class="pill">Key Person Dependencies</li>
-														<li class="pill">Executive Overload</li>
-													</ul>
-												</div>
+							<div class="snapshot-diagram">
+								<div class="snapshot-node" style="grid-area: spof;">
+									<div class="snapshot-title">Single Points of Failure</div>
+									<div class="snapshot-text">Key processes dependent on specific individuals or legacy knowledge.</div>
+								</div>
+								<div class="snapshot-node" style="grid-area: friction;">
+									<div class="snapshot-title">Cross-Team Friction</div>
+									<div class="snapshot-text">Slow handoffs and misaligned priorities between teams.</div>
+								</div>
+								<div class="snapshot-node" style="grid-area: tooling;">
+									<div class="snapshot-title">Legacy Tooling</div>
+									<div class="snapshot-text">A mix of old and new systems creates inefficiency and data silos.</div>
+								</div>
 
-												<!-- AFTER STATE -->
-												<div class="state-card after-state">
-													<div class="state-title">After: Scalable Framework</div>
-													<div class="flow-node-sm">Discover</div>
-													<div class="flow-arrow-clean">→</div>
-													<div class="flow-node-sm">Plan</div>
-													<div class="flow-arrow-clean">→</div>
-													<div class="flow-node-sm accent">Program Director (You)</div>
-													<div class="flow-arrow-clean">→</div>
-													<div class="flow-node-sm">Execute &amp; Report</div>
-												</div>
-											</div>
-										</div>
-										<div class="col">
-											<div class="mini-label">The insights we unlock</div>
-											<ul class="pill-list">
-												<li class="pill">Visibility of automation opportunities</li>
-												<li class="pill">Identification of systemic friction points</li>
-												<li class="pill">Clear strategy for tool consolidation &amp; savings</li>
-											</ul>
-										</div>
-									</div>
+								<div class="snapshot-core">
+									Current Business & Project Workflows
+								</div>
+
+								<div class="snapshot-node" style="grid-area: scaling;">
+									<div class="snapshot-title">Challenges in Scaling</div>
+									<div class="snapshot-text">Manual steps and bottlenecks limit our ability to grow capacity.</div>
+								</div>
+								<div class="snapshot-node" style="grid-area: resources;">
+									<div class="snapshot-title">Resource Constraints</div>
+									<div class="snapshot-text">High-value staff are often consumed by low-value, repetitive tasks.</div>
 								</div>
 							</div>
-						</section>
-					{/if}
+
+							<div class="mandate-quote-card mt-lg" style="max-width: 900px; margin-left: auto; margin-right: auto;">
+								These are not individual failures; they are interconnected symptoms of success. Addressing them holistically is the key to unlocking our next level of efficiency and scale.
+							</div>
+						</div>
+					</section>
+				{/if}
 
 {#if step === 5}
 			<section
@@ -614,33 +602,48 @@ const maxStep = 12; // 0..12
 					>
 						<div class="deck-block">
 							<div class="deck-wide">
-								<div class="deck-subtle">Mandate logic</div>
-								<div class="deck-title-md">Why this requires a dedicated mandate</div>
+								<div class="deck-subtle">The Mandate: Our Accelerator Layer</div>
+								<div class="deck-title-lg">Why This Work Requires a Specialised Mandate</div>
 
-								<div class="two-col-uneven">
+								<div class="two-col-uneven mt-lg">
+									<!-- The Visual Diagram -->
 									<div class="col">
+										<div class="accelerator-diagram">
+											<!-- The Accelerator Layer -->
+											<div class="layer accelerator-layer">
+												<div class="layer-title">Program Focus: Transformation & Velocity</div>
+												<div class="layer-node accent">Program Director</div>
+											</div>
+											<div class="layer-arrows">
+												<span>↓</span><span>↓</span><span>↓</span>
+											</div>
+											<!-- The BAU Layer -->
+											<div class="layer bau-layer">
+												<div class="layer-title">BAU Focus: Stability & Execution</div>
+												<div class="layer-node-group">
+													<div class="layer-node">Projects</div>
+													<div class="layer-node">Systems</div>
+													<div class="layer-node">Operations</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- The Justification -->
+									<div class="col">
+										<div class="mini-label">How This Layer Adds Value</div>
 										<ul class="pill-list">
 											<li class="pill">
-												Normal processes are optimised for BAU, not cross-functional change.
+												Business-as-usual is for *running* the business. This program is for *changing* the business.
 											</li>
 											<li class="pill">
-												Ownership is fragmented across roles with competing priorities.
+												It provides a single point of accountability for complex, cross-functional outcomes.
 											</li>
 											<li class="pill">
-												No single point of accountability for end-to-end workflows.
-											</li>
-											<li class="pill">
-												System owners focus on stability, not organisational design.
-											</li>
-											<li class="pill">
-												Automation and modernisation need authority that spans functions.
+												It has the authority to cut through friction and align teams to a single strategic goal.
 											</li>
 										</ul>
-									</div>
-									<div class="col">
-										<div class="mandate-quote-card">
-											This mandate isn't about control. It's about having the authority to
-											resolve systemic problems that no single department is structured to fix.
+										<div class="mandate-quote-card mt-md">
+											This mandate isn't about control. It's about creating the velocity needed to solve problems that no single department is designed to fix.
 										</div>
 									</div>
 								</div>
@@ -652,34 +655,37 @@ const maxStep = 12; // 0..12
 {#if step === 11}
 	<section in:fade={{ duration: 420 }} out:fade={{ duration: 220 }} class="deck-abs-center">
 		<div class="deck-wide">
-			<div class="deck-subtle">The Decision Point</div>
-			<div class="deck-title-lg">The Crossroads: Two Paths Forward</div>
+			<div class="deck-subtle">The Strategic Catalyst</div>
+			<div class="deck-title-lg">Unlocking Our Next Level of Performance</div>
+			<div class="deck-body-sm deck-mute deck-hint mb-lg">
+				We have a clear opportunity to evolve our operating model to match our ambition.
+			</div>
 
 			<div class="two-paths">
-				<div class="path-card old-path">
-					<div class="path-title">Continue the Current Path</div>
+				<!-- Current Trajectory -->
+				<div class="path-card current-path">
+					<div class="path-title">Our Current Trajectory</div>
 					<ul class="pill-list">
-						<li class="pill danger">Absorb ongoing inefficiencies</li>
-						<li class="pill danger">Reinforce legacy perception</li>
-						<li class="pill danger">React to the market</li>
-						<li class="pill danger">Suffer margin erosion</li>
+						<li class="pill">Growth creates complexity</li>
+						<li class="pill">Goodwill absorbs friction</li>
+						<li class="pill">Reacting to market shifts</li>
+						<li class="pill">Incremental improvements</li>
 					</ul>
 				</div>
+				<!-- The Catalyst -->
 				<div class="path-card new-path">
-					<div class="path-title">Take the Modern Path</div>
+					<div class="path-title">With This 90-Day Catalyst</div>
 					<ul class="pill-list">
-						<li class="pill">Build new capacity</li>
-						<li class="pill">Become a technology leader</li>
-						<li class="pill">Define the market for our customers</li>
-						<li class="pill">Create new revenue streams</li>
+						<li class="pill">Structure enables scale</li>
+						<li class="pill">Systems create capacity</li>
+						<li class="pill">Defining the market for customers</li>
+						<li class="pill">Step-change in performance & revenue</li>
 					</ul>
 				</div>
 			</div>
-			<div
-				class="mandate-quote-card mt-lg"
-				style="text-align: center; max-width: 800px; margin-left: auto; margin-right: auto; font-style: normal; font-size: 1.2rem;"
-			>
-				"We need to be the company we want to help others become."
+
+			<div class="philosophy-quote mt-lg">
+				"We need to build the company internally that we want to be for our customers externally."
 			</div>
 		</div>
 	</section>
