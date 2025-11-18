@@ -6,7 +6,7 @@ node_modules
 .netlify
 .wrangler
 /.svelte-kit
-/build
+# /build - commented out to allow committing build output for GitHub Pages
 
 # OS
 .DS_Store
