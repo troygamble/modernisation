@@ -6,7 +6,9 @@ const dev = process.env.NODE_ENV === 'development';
 const config = {
 	preprocess: vitePreprocess(),
 	kit: {
-		adapter: adapter(),
+		adapter: adapter({
+			pages: '../docs' // Output to docs/ at repository root for GitHub Pages
+		}),
 		paths: {
 			base: dev ? '' : '/modernisation' // repo name for GitHub Pages
 		},

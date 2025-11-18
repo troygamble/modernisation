@@ -7,6 +7,7 @@ node_modules
 .wrangler
 /.svelte-kit
 # /build - commented out to allow committing build output for GitHub Pages
+privatereadme.md
 
 # OS
 .DS_Store
