@@ -693,50 +693,48 @@ const maxStep = 12; // 0..12
 					>
 						<div class="deck-block">
 							<div class="deck-wide">
-								<div class="deck-subtle">Decision frame</div>
-								<div class="deck-title-xl">90-day mandate and what it unlocks</div>
+								<div class="deck-subtle">Decision Frame</div>
+								<div class="deck-title-xl">The 90-Day Modernisation Charter</div>
 
-								<div class="two-col">
+								<div class="two-col mt-lg">
+									<!-- THE REMIT -->
 									<div class="col">
-										<div class="mini-label">What I am asking for</div>
+										<div class="mini-label">The Remit & Authority</div>
 										<ul class="pill-list">
-											{#each [
-												'Admin access to Halo, MSPbots, and relevant automation tools.',
-												'Dylan for a defined allocation of time each week.',
-												'Authority to run cross functional workflow discovery and set standards.',
-												'A 90 day mandate, reporting directly to the MD for automation and governance decisions.'
-											] as item, i}
-												<li
-													class="pill pill-strong"
-													in:fly={{ y: 10, duration: 400, delay: 200 + i * 100 }}
-													out:fade={{ duration: 150 }}
-												>
-													{item}
-												</li>
-											{/each}
+											<li class="pill pill-strong">
+												Establish and lead the cross-functional Modernisation Program as Program Director.
+											</li>
+											<li class="pill pill-strong">
+												Assume ownership of the PMO uplift, setting the new standards for project delivery governance.
+											</li>
+											<li class="pill pill-strong">
+												Hold the single point of accountability for program outcomes, with a direct reporting line to the MD for this charter.
+											</li>
 										</ul>
 									</div>
+									<!-- THE RESOURCES -->
 									<div class="col">
-										<div class="mini-label">What I am not asking for</div>
+										<div class="mini-label">The Lean Operating Model</div>
 										<ul class="pill-list">
-											<li class="pill pill-soft">No increase in headcount.</li>
-											<li class="pill pill-soft">No new budget line today.</li>
-											<li class="pill pill-soft">No permanent structural change yet.</li>
-											<li class="pill pill-soft">No change in remuneration.</li>
+											<li class="pill pill-strong">
+												One dedicated engineering resource (Dylan) to act as the technical lead for automation initiatives.
+											</li>
+											<li class="pill pill-strong">
+												This program will operate within existing budgets for the initial 90-day phase.
+											</li>
+											<li class="pill pill-strong">
+												No new headcount is required to begin delivering value.
+											</li>
 										</ul>
 									</div>
 								</div>
 
 								<div class="deck-body-lg mt-lg max-width-md">
-									We can continue to absorb inefficiencies, or we can operate as the modern
-									technology partner our customers already expect us to be. You brought me in for
-									this work. This 90-day plan lets me deliver it with clarity, accountability, and
-									low risk.
+									This is the work you brought me in to do. This charter provides the clarity and authority required to execute effectively. It's an accountable, low-risk plan to unlock the modern capabilities our customers—and our future—demand.
 								</div>
+
 								<div class="mandate-quote-card mt-lg">
-									This is a 90-day mandate. At the end of this period, we review the measurable
-									wins, the frameworks established, and decide on the permanent structure. A
-									low-risk, high-impact experiment.
+									This is a 90-day mandate. At the end of this period, we will review the outcomes, the value delivered, and formalise the permanent role and structure required for the next phase.
 								</div>
 							</div>
 						</div>
