@@ -30,7 +30,7 @@
 						<div class="esc-arrow-path">↓</div>
 						<div class="esc-node-path">Project Manager</div>
 						<div class="esc-arrow-path">↓</div>
-						<div class="esc-node-path accent">Program Director (Single Point)</div>
+						<div class="esc-node-path accent">Program Director (Program Escalation)</div>
 						<div class="esc-arrow-path-exec">↑ Only strategic escalations ↑</div>
 						<div class="esc-node-path exec">MD & Executive Team</div>
 					</div>

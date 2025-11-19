@@ -13,7 +13,7 @@
 					I relocated my family to the region for the long term. I am not here for a rotation; I am here to build.
 				</div>
 				<p class="deck-body-sm deck-mute mt-md">
-					Currently, my role under-utilises my experience and capability. This plan is a mechanism to deploy my full skillset—Strategic Governance and Technical Engineering—to solve your most expensive problems.
+					The current structure isolates my capability from the company's biggest challenges. This plan is a mechanism to deploy my full skillset—Strategic Governance and Technical Architecture—to solve your most expensive problems.
 				</p>
 			</div>
 			<div class="col">

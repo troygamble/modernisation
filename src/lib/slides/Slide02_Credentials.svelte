@@ -7,7 +7,7 @@
 		<div class="deck-subtle">Execution Capability</div>
 		<div class="deck-title-lg">Why this specific skillset fits the problem</div>
 		<div class="deck-body-sm deck-mute deck-hint mb-lg">
-			This plan relies on a unique intersection of formal governance training and deep technical engineering.
+			This plan relies on a unique intersection of formal governance training and technical strategy.
 		</div>
 
 		<div class="two-col-uneven">
@@ -26,11 +26,11 @@
 			<div class="col">
 				<div class="mini-label">Pillar 2 & 3: Automation & Tech</div>
 				<div class="deck-body-md mb-md">
-					A proven history of building enterprise-grade software and secure infrastructure.
+					A proven history of directing enterprise-grade software and secure infrastructure projects.
 				</div>
 				<ul class="pill-list">
-					<li class="pill pill-strong">Full-stack Software Development</li>
-					<li class="pill">Deep AI & Automation Knowledge</li>
+					<li class="pill pill-strong">Technical Architecture & Systems Integration</li>
+					<li class="pill">Applied AI & Process Automation Strategy</li>
 					<li class="pill">NV2 Security Clearance (5-Eyes Context)</li>
 					<li class="pill">Enterprise Release Management</li>
 				</ul>

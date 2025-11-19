@@ -13,7 +13,8 @@
 					<ul class="pill-list">
 						<li class="pill pill-strong">Director - Programs, Automation & Modernisation</li>
 						<li class="pill pill-strong">Assume ownership of the PMO uplift.</li>
-						<li class="pill pill-strong">Direct reporting line to the MD for this charter.</li>
+						<li class="pill pill-strong">Authority to audit and optimise internal toolchains.</li>
+						<li class="pill pill-strong">Direct reporting line to the MD for this initiative.</li>
 					</ul>
 				</div>
 				<div class="col">
