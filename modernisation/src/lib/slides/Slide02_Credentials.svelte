@@ -7,7 +7,7 @@
 		<div class="deck-subtle">Execution Capability</div>
 		<div class="deck-title-lg">The Required Capability Mix</div>
 		<div class="deck-body-sm deck-mute deck-hint mb-lg">
-			Bridging the gap between commercial strategy and technical execution.
+			Delivering structural transformation requires the fusion of Executive Governance and Technical Strategy.
 		</div>
 
 		<div class="two-col-uneven">
