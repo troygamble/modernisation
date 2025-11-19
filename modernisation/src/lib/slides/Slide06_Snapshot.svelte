@@ -11,25 +11,22 @@
 
 	// Line coordinates state
 	let lines = [];
-	let viewBoxDimensions = '0 0 1000 600';
+	let viewBoxWidth = 960;
+	let viewBoxHeight = 500;
 
-	// Calculate line positions based on actual DOM positions
+	// Calculate line positions using container-relative coordinates
 	function updateLinePositions() {
 		if (!containerRef || !svgRef || !coreRef || !leftNode1 || !leftNode2 || !leftNode3 || !rightNode1 || !rightNode2 || !rightNode3) {
 			return;
 		}
 
-		// Get the SVG's actual rendered dimensions
-		const svgRect = svgRef.getBoundingClientRect();
-		const containerRect = containerRef.getBoundingClientRect();
+		// Get container dimensions for viewBox
+		viewBoxWidth = containerRef.offsetWidth;
+		viewBoxHeight = containerRef.offsetHeight;
 
-		// Set viewBox to match SVG's exact pixel dimensions for 1:1 coordinate mapping
-		viewBoxDimensions = `0 0 ${svgRect.width} ${svgRect.height}`;
-
-		// Calculate positions relative to the SVG element (not container)
-		const coreRect = coreRef.getBoundingClientRect();
-		const circleCenterX = coreRect.left + coreRect.width / 2 - svgRect.left;
-		const circleCenterY = coreRect.top + coreRect.height / 2 - svgRect.top;
+		// Calculate circle center using offsetLeft/offsetTop (container-relative)
+		const circleCenterX = coreRef.offsetLeft + coreRef.offsetWidth / 2;
+		const circleCenterY = coreRef.offsetTop + coreRef.offsetHeight / 2;
 
 		const leftNodes = [leftNode1, leftNode2, leftNode3];
 		const rightNodes = [rightNode1, rightNode2, rightNode3];
@@ -38,17 +35,15 @@
 
 		// Left side lines - connect from right edge center of box to circle center
 		leftNodes.forEach(node => {
-			const rect = node.getBoundingClientRect();
-			const x1 = rect.right - svgRect.left; // Right edge relative to SVG
-			const y1 = rect.top + rect.height / 2 - svgRect.top; // Vertical center relative to SVG
+			const x1 = node.offsetLeft + node.offsetWidth; // Right edge
+			const y1 = node.offsetTop + node.offsetHeight / 2; // Vertical center
 			newLines.push({ x1, y1, x2: circleCenterX, y2: circleCenterY });
 		});
 
 		// Right side lines - connect from left edge center of box to circle center
 		rightNodes.forEach(node => {
-			const rect = node.getBoundingClientRect();
-			const x1 = rect.left - svgRect.left; // Left edge relative to SVG
-			const y1 = rect.top + rect.height / 2 - svgRect.top; // Vertical center relative to SVG
+			const x1 = node.offsetLeft; // Left edge
+			const y1 = node.offsetTop + node.offsetHeight / 2; // Vertical center
 			newLines.push({ x1, y1, x2: circleCenterX, y2: circleCenterY });
 		});
 
@@ -62,13 +57,13 @@
 		// Small delay to ensure layout is complete
 		setTimeout(() => {
 			updateLinePositions();
-		}, 50);
+		}, 100);
 
 		// Update on window resize with debounce
 		let resizeTimeout;
 		const handleResize = () => {
 			clearTimeout(resizeTimeout);
-			resizeTimeout = setTimeout(updateLinePositions, 100);
+			resizeTimeout = setTimeout(updateLinePositions, 150);
 		};
 		window.addEventListener('resize', handleResize);
 
@@ -91,7 +86,7 @@
 				Background Connectors 
 				Dynamically positioned based on actual element positions
 			-->
-			<svg class="snapshot-lines" bind:this={svgRef} viewBox="{viewBoxDimensions}" preserveAspectRatio="none">
+			<svg class="snapshot-lines" bind:this={svgRef} viewBox="0 0 {viewBoxWidth} {viewBoxHeight}">
 				{#each lines as line, i}
 					<line 
 						x1={line.x1} 

@@ -26,7 +26,7 @@
 	<div class="gate-shell">
 		<div class="gate-panel">
 			<div class="gate-title">Access</div>
-			<div class="gate-headline">Strategic Modernisation Playbook</div>
+			<div class="gate-headline">90-Day Strategic Execution Framework</div>
 			<div class="gate-label">Passphrase</div>
 			<input
 				class="gate-input"

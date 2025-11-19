@@ -9,11 +9,18 @@ const config = {
 		adapter: adapter({
 			pages: '../docs' // Output to docs/ at repository root for GitHub Pages
 		}),
-	paths: {
-		base: dev ? '' : '/v3' // repo name for GitHub Pages
-	},
+		paths: {
+			base: dev ? '' : '/v3' // repo name for GitHub Pages
+		},
 		prerender: {
-			handleMissingId: 'ignore'
+			handleMissingId: 'ignore',
+			handleHttpError: ({ path, referrer, message }) => {
+				// Ignore missing favicon errors
+				if (path.includes('favicon')) {
+					return;
+				}
+				throw new Error(message);
+			}
 		}
 	}
 };
