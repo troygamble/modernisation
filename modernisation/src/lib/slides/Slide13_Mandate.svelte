@@ -12,7 +12,8 @@
 					<div class="accelerator-diagram">
 						<div class="layer accelerator-layer">
 							<div class="layer-title">Program Focus: Transformation</div>
-							<div class="layer-node accent">Program Director</div>
+							<!-- FULL TITLE HERE -->
+							<div class="layer-node accent">Director - Programs, Automation & Modernisation</div>
 						</div>
 						<div class="layer-arrows"><span>↓</span><span>↓</span><span>↓</span></div>
 						<div class="layer bau-layer">
@@ -28,8 +29,8 @@
 				<div class="col">
 					<div class="mini-label">How This Layer Adds Value</div>
 					<ul class="pill-list">
-						<li class="pill">Business-as-usual is for *running* the business. This program is for *changing* it.</li>
-						<li class="pill">It provides a single point of accountability for complex outcomes.</li>
+						<li class="pill">Business-as-usual is for *running* the business. This mandate is for *changing* it.</li>
+						<li class="pill">It provides a single point of accountability for complex cross-functional outcomes.</li>
 					</ul>
 				</div>
 			</div>

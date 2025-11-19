@@ -10,13 +10,14 @@
 			<div class="governance-model">
 				<div class="model-col">
 					<div class="mini-label">Rhythm & Reporting</div>
-					<div class="cadence-item">
-						<div class="cadence-title">Weekly: Project Health & Blocker Removal</div>
-						<div class="cadence-text">Tactical session: removing obstacles to ensure velocity.</div>
+					<!-- New Block: The Daily Grind -->
+					<div class="cadence-item" style="border-left: 3px solid var(--accent);">
+						<div class="cadence-title">Continuous: Scope & Risk Monitoring</div>
+						<div class="cadence-text">Daily oversight of deliverables, change requests, and schedule variances. I act as the first line of defense against scope creep.</div>
 					</div>
 					<div class="cadence-item">
-						<div class="cadence-title">Fortnightly: PMO Governance Board</div>
-						<div class="cadence-text">Review/approve new briefs, templates, and process improvements.</div>
+						<div class="cadence-title">Weekly: Blocker Removal</div>
+						<div class="cadence-text">Tactical session to clear obstacles for delivery teams.</div>
 					</div>
 					<div class="cadence-item">
 						<div class="cadence-title">Monthly: Portfolio Status (Exec)</div>
@@ -30,7 +31,8 @@
 						<div class="esc-arrow-path">↓</div>
 						<div class="esc-node-path">Project Manager</div>
 						<div class="esc-arrow-path">↓</div>
-						<div class="esc-node-path accent">Program Director (Single Point)</div>
+						<!-- Title Fix Here -->
+						<div class="esc-node-path accent">Director - Programs (Escalation)</div>
 						<div class="esc-arrow-path-exec">↑ Only strategic escalations ↑</div>
 						<div class="esc-node-path exec">MD & Executive Team</div>
 					</div>

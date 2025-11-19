@@ -6,7 +6,7 @@
 	<div class="deck-block">
 		<div class="deck-wide">
 			<div class="deck-subtle">System state</div>
-			<div class="deck-title-lg">Why the system cannot self-correct</div>
+			<div class="deck-title-lg">The Structural Barrier to Scale</div>
 			<p class="deck-body-lg">
 				Our success and growth have naturally introduced complexity. The core issue is that we are currently using BAU delivery mechanisms to try and implement structural change.
 			</p>
@@ -17,7 +17,7 @@
 				</div>
 				<div class="lane-col">
 					<div class="lane-head">Internal Initiatives</div>
-					<div class="lane-sub">Siloed work · No central priority · Duplicated effort</div>
+					<div class="lane-sub">Competing priorities · Duplicated effort</div>
 				</div>
 				<div class="lane-col">
 					<div class="lane-head">Workflow Automation</div>

@@ -5,9 +5,9 @@
 <section in:fade={{ duration: 420 }} out:fade={{ duration: 220 }} class="deck-abs-center">
 	<div class="deck-wide">
 		<div class="deck-subtle">Execution Capability</div>
-		<div class="deck-title-lg">Why this specific skillset fits the problem</div>
+		<div class="deck-title-lg">The Required Capability Mix</div>
 		<div class="deck-body-sm deck-mute deck-hint mb-lg">
-			This plan relies on a unique intersection of formal governance training and deep technical engineering.
+			Success requires a leader who speaks both the language of the Boardroom and the Engineer.
 		</div>
 
 		<div class="two-col-uneven">
@@ -26,11 +26,11 @@
 			<div class="col">
 				<div class="mini-label">Pillar 2 & 3: Automation & Tech</div>
 				<div class="deck-body-md mb-md">
-					A proven history of building enterprise-grade software and secure infrastructure.
+					Strategic oversight of high-stakes technical initiatives and secure infrastructure environments.
 				</div>
 				<ul class="pill-list">
-					<li class="pill pill-strong">Full-stack Software Development</li>
-					<li class="pill">Deep AI & Automation Knowledge</li>
+					<li class="pill pill-strong">Technical Architecture & Integration Strategy</li>
+					<li class="pill">Applied AI & Process Automation Strategy</li>
 					<li class="pill">NV2 Security Clearance (5-Eyes Context)</li>
 					<li class="pill">Enterprise Release Management</li>
 				</ul>

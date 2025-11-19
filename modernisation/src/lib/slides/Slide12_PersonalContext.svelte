@@ -10,10 +10,10 @@
 		<div class="two-col mt-lg">
 			<div class="col">
 				<div class="deck-body-lg">
-					I relocated my family to the region for the long term. I am not here for a rotation; I am here to build.
+					I relocated my family to the region to build a long-term future here.
 				</div>
 				<p class="deck-body-sm deck-mute mt-md">
-					Currently, my role under-utilises my experience and capability. This plan is a mechanism to deploy my full skillset—Strategic Governance and Technical Engineering—to solve your most expensive problems.
+					My experience in high-velocity environments means I have the capacity to absorb this strategic workload <strong>in addition</strong> to my current operational duties. This plan allows the business to extract maximum value from my salary without requiring a new hire.
 				</p>
 			</div>
 			<div class="col">

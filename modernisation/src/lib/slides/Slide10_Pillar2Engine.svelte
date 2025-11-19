@@ -7,7 +7,7 @@
 		<div class="deck-subtle">Pillar 2: The Modernisation Engine</div>
 		<div class="deck-title-lg">Turning Insight into Action</div>
 		<div class="deck-body-sm deck-mute deck-hint mb-lg">
-			We will deploy a continuous discovery process to build a pipeline of improvements.
+			We will deploy a continuous discovery process to build a safe, prioritised pipeline of improvements.
 		</div>
 
 		<div class="engine-flow">
@@ -35,9 +35,9 @@
 				<div class="engine-icon">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg>
 				</div>
-				<div class="engine-title">3. Execute</div>
+				<div class="engine-title">3. Deploy & Document</div>
 				<div class="engine-text">
-					Prioritised backlog of automations to reduce tool count and staff toil.
+					Prioritised execution with full documentation to reduce tool count and staff toil.
 				</div>
 			</div>
 		</div>
