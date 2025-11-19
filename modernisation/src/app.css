@@ -1145,3 +1145,384 @@ button {
 .danger-border {
 	border-color: rgba(255, 75, 106, 0.3);
 }
+
+/* ========================================
+   MOBILE RESPONSIVE STYLES
+   ======================================== */
+
+@media (max-width: 768px) {
+	:root {
+		--pad-page: 16px;
+		--pad-card: 20px;
+		--radius-xl: 24px;
+		--radius-lg: 16px;
+	}
+
+	/* Main deck structure */
+	.deck-shell {
+		padding: var(--pad-page);
+	}
+
+	.deck-header {
+		font-size: 0.7rem;
+		letter-spacing: 0.12em;
+		flex-wrap: wrap;
+		gap: 8px;
+	}
+
+	.deck-badge {
+		padding: 4px 10px;
+		font-size: 0.7rem;
+	}
+
+	.deck-main {
+		margin: 16px 0;
+	}
+
+	.deck-footer {
+		flex-direction: column;
+		gap: 12px;
+		margin-top: 16px;
+	}
+
+	.deck-actions {
+		width: 100%;
+		justify-content: stretch;
+	}
+
+	.deck-btn {
+		flex: 1;
+		padding: 12px 16px;
+		font-size: 0.9rem;
+		justify-content: center;
+	}
+
+	/* Typography - scale down titles */
+	.deck-title-xxl,
+	.deck-title-xl {
+		font-size: 1.8rem;
+		margin-bottom: 12px;
+	}
+
+	.deck-title-lg {
+		font-size: 1.5rem;
+		margin-bottom: 8px;
+	}
+
+	.deck-title-md {
+		font-size: 1.3rem;
+		margin-bottom: 8px;
+	}
+
+	.deck-body-md {
+		font-size: 0.95rem;
+		line-height: 1.5;
+	}
+
+	.deck-body-lg {
+		font-size: 1rem;
+		line-height: 1.5;
+	}
+
+	.deck-subtle {
+		font-size: 0.8rem;
+	}
+
+	/* Gate/Login screen */
+	.gate-panel {
+		padding: 24px 20px;
+	}
+
+	.gate-headline {
+		font-size: 1.2rem;
+	}
+
+	/* Pillar grid - stack to single column */
+	.pillar-grid {
+		grid-template-columns: 1fr;
+		gap: 16px;
+	}
+
+	.pillar-card {
+		padding: 20px;
+	}
+
+	.pillar-title {
+		font-size: 1.2rem;
+	}
+
+	.pillar-sub {
+		font-size: 0.88rem;
+	}
+
+	/* Lane grid - stack to single column */
+	.lane-grid {
+		grid-template-columns: 1fr;
+		gap: 12px;
+		margin-top: 16px;
+	}
+
+	.lane-grid.fractured {
+		gap: 12px;
+	}
+
+	.lane-grid.fractured .lane-col:nth-child(2),
+	.lane-grid.fractured .lane-col:nth-child(4) {
+		transform: none;
+	}
+
+	/* Two column layouts - stack */
+	.two-col,
+	.two-col-uneven {
+		grid-template-columns: 1fr;
+		gap: 20px;
+		margin-top: 16px;
+	}
+
+	/* Journey flow - stack vertically */
+	.journey-flow {
+		grid-template-columns: 1fr;
+		gap: 16px;
+	}
+
+	.journey-arrow {
+		transform: rotate(90deg);
+		font-size: 1.5rem;
+		margin: 8px 0;
+	}
+
+	.journey-node {
+		padding: 20px;
+	}
+
+	.journey-title {
+		font-size: 1.1rem;
+	}
+
+	/* Commercial flow - stack */
+	.commercial-flow {
+		grid-template-columns: 1fr;
+		gap: 16px;
+	}
+
+	.flow-arrow-large {
+		transform: rotate(90deg);
+		font-size: 1.5rem;
+		margin: 8px 0;
+	}
+
+	/* Engine flow - stack */
+	.engine-flow {
+		grid-template-columns: 1fr;
+		gap: 16px;
+	}
+
+	.engine-arrow {
+		transform: rotate(90deg);
+		font-size: 1.5rem;
+		margin: 8px 0;
+	}
+
+	.engine-title {
+		font-size: 1.1rem;
+	}
+
+	/* Snapshot grid - stack to single column */
+	.snapshot-container {
+		margin: 20px auto 0;
+	}
+
+	.snapshot-grid {
+		grid-template-columns: 1fr;
+		gap: 20px;
+	}
+
+	.snapshot-lines {
+		display: none;
+	}
+
+	.snapshot-core {
+		width: 140px;
+		height: 140px;
+		order: -1;
+	}
+
+	.core-label {
+		font-size: 0.9rem;
+	}
+
+	.snapshot-node {
+		padding: 16px;
+	}
+
+	/* Two paths - stack */
+	.two-paths {
+		grid-template-columns: 1fr;
+		gap: 16px;
+	}
+
+	.path-card {
+		padding: 20px;
+	}
+
+	.path-title {
+		font-size: 1.1rem;
+	}
+
+	/* Governance model - stack */
+	.governance-model {
+		grid-template-columns: 1fr;
+		gap: 20px;
+	}
+
+	/* Kanban board - stack to single column */
+	.kanban-board {
+		grid-template-columns: 1fr;
+		gap: 12px;
+	}
+
+	/* Loop grid - reduce to 2 columns */
+	.loop-grid {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 8px;
+	}
+
+	/* Auto grid - reduce columns */
+	.auto-grid {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 8px;
+	}
+
+	/* Phase bars - reduce to 2 columns */
+	.phase-bars {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 8px;
+	}
+
+	/* Heatmap - adjust for mobile */
+	.heat-header,
+	.heat-row {
+		grid-template-columns: 1.2fr repeat(4, 0.8fr);
+		gap: 4px;
+		font-size: 0.7rem;
+	}
+
+	.heat-label {
+		font-size: 0.72rem;
+	}
+
+	/* Market quote */
+	.market-quote {
+		font-size: 1.3rem;
+		padding-left: 16px;
+	}
+
+	.philosophy-quote {
+		font-size: 1rem;
+		margin-top: 24px;
+	}
+
+	/* Accelerator diagram */
+	.accelerator-diagram {
+		padding: 16px;
+	}
+
+	.layer-node-group {
+		flex-wrap: wrap;
+		gap: 6px;
+	}
+
+	.layer-node {
+		padding: 4px 10px;
+		font-size: 0.82rem;
+	}
+
+	/* Cadence cards */
+	.cadence-card {
+		padding: 14px 16px;
+		font-size: 0.85rem;
+	}
+
+	/* ESC cards */
+	.esc-card,
+	.esc-stack {
+		padding: 14px;
+	}
+
+	/* Mandate quote card */
+	.mandate-quote-card {
+		padding: 20px;
+		font-size: 0.95rem;
+	}
+
+	/* Flow cards */
+	.flow-card {
+		padding: 20px;
+	}
+
+	.flow-card-icon {
+		width: 36px;
+		height: 36px;
+	}
+
+	.flow-card-title {
+		font-size: 1rem;
+	}
+
+	.flow-card-text {
+		font-size: 0.85rem;
+	}
+
+	/* Utility classes */
+	.deck-frame,
+	.deck-wide {
+		padding: 0 8px;
+	}
+
+	.hero-shell {
+		padding: 0;
+	}
+
+	/* Adjust spacing utilities for mobile */
+	.mt-lg { margin-top: 16px; }
+	.mb-lg { margin-bottom: 16px; }
+	.pt-lg { padding-top: 16px; }
+	.pb-lg { padding-bottom: 16px; }
+}
+
+/* Extra small devices (portrait phones, less than 375px) */
+@media (max-width: 374px) {
+	:root {
+		--pad-page: 12px;
+		--pad-card: 16px;
+	}
+
+	.deck-title-xxl,
+	.deck-title-xl {
+		font-size: 1.5rem;
+	}
+
+	.deck-title-lg {
+		font-size: 1.3rem;
+	}
+
+	.deck-title-md {
+		font-size: 1.15rem;
+	}
+
+	.deck-body-md {
+		font-size: 0.9rem;
+	}
+
+	.deck-btn {
+		padding: 10px 12px;
+		font-size: 0.85rem;
+	}
+
+	/* Further reduce grid complexity */
+	.loop-grid,
+	.auto-grid,
+	.phase-bars {
+		grid-template-columns: 1fr;
+	}
+}

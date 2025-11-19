@@ -11,10 +11,10 @@
 			<div class="two-col mt-lg">
 				<div class="col">
 					<div class="deck-body-lg">
-						This plan answers the specific directive to evolve beyond the V2 MSP model. You identified that internal bottlenecks are currently the primary constraint on our ability to scale.
+						This plan answers the specific directive to evolve beyond the V2.0 MSP Model. You identified that internal bottlenecks are currently the primary constraint on our ability to scale.
 					</div>
 					<div class="deck-body-sm deck-mute mt-md">
-						It operationalises the insights from previous executive sessions regarding process friction and efficiency.
+						It operationalises the insights from previous sessions regarding process friction, efficiency, modernisation and the future.
 					</div>
 				</div>
 				<div class="col">

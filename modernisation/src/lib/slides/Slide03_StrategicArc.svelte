@@ -5,7 +5,7 @@
 <section in:fade={{ duration: 420 }} out:fade={{ duration: 220 }} class="deck-abs-center">
 	<div class="deck-wide">
 		<div class="deck-subtle">The Strategic Arc</div>
-		<div class="deck-title-lg">Transformation to Technology Leadership</div>
+		<div class="deck-title-lg">Transformation to Technology Industry Leadership</div>
 		<div class="journey-flow">
 			<div class="journey-node">
 				<div class="journey-tag">Pillar 1</div>

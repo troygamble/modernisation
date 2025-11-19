@@ -7,7 +7,7 @@
 		<div class="deck-subtle">Execution Capability</div>
 		<div class="deck-title-lg">The Required Capability Mix</div>
 		<div class="deck-body-sm deck-mute deck-hint mb-lg">
-			Success requires a leader who speaks both the language of the Boardroom and the Engineer.
+			Bridging the gap between commercial strategy and technical execution.
 		</div>
 
 		<div class="two-col-uneven">

@@ -51,6 +51,36 @@
 		if (event.key === 'ArrowLeft' || event.key === 'PageUp') prev();
 	}
 
+	// Touch/swipe gesture support for mobile
+	let touchStartX = 0;
+	let touchStartY = 0;
+	const SWIPE_THRESHOLD = 50; // minimum distance in pixels to trigger swipe
+	const VERTICAL_THRESHOLD = 30; // max vertical movement to still count as horizontal swipe
+
+	function handleTouchStart(event: TouchEvent) {
+		touchStartX = event.touches[0].clientX;
+		touchStartY = event.touches[0].clientY;
+	}
+
+	function handleTouchEnd(event: TouchEvent) {
+		const touchEndX = event.changedTouches[0].clientX;
+		const touchEndY = event.changedTouches[0].clientY;
+		
+		const deltaX = touchEndX - touchStartX;
+		const deltaY = touchEndY - touchStartY;
+		
+		// Only process horizontal swipes (ignore if vertical movement is too large)
+		if (Math.abs(deltaY) < VERTICAL_THRESHOLD) {
+			if (deltaX > SWIPE_THRESHOLD) {
+				// Swipe right -> go to previous
+				prev();
+			} else if (deltaX < -SWIPE_THRESHOLD) {
+				// Swipe left -> go to next
+				next();
+			}
+		}
+	}
+
 	onMount(() => {
 		window.addEventListener('keydown', handleKey);
 		return () => window.removeEventListener('keydown', handleKey);
@@ -59,7 +89,7 @@
 	$: progress = step / maxStep;
 </script>
 
-<div class="deck-root">
+<div class="deck-root" on:touchstart={handleTouchStart} on:touchend={handleTouchEnd}>
 	<div class="deck-shell">
 		<header class="deck-header">
 			<div class="deck-badge">90-Day Modernisation Plan</div>
