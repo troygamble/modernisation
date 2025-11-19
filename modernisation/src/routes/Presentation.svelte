@@ -20,12 +20,25 @@
 	import Slide15 from '$lib/slides/Slide15_Charter.svelte';
 
 	let step = 0;
-	// Update this array if you add/remove slides
+	
+	// REORDERED FLOW based on your feedback
 	const slides = [
-		Slide00, Slide01, Slide02, Slide03, 
-		Slide04, Slide05, Slide06, Slide07, 
-		Slide08, Slide09, Slide10, Slide11, 
-		Slide12, Slide13, Slide14, Slide15
+		Slide00, // Title
+		Slide01, // Vision (Context)
+		Slide03, // Strategic Arc (Show the plan first)
+		Slide02, // Credentials (Why me)
+		Slide04, // System State (The Problem)
+		Slide06, // Snapshot (Visualizing the problem - Moved here)
+		Slide05, // Three Pillars (The Structural Answer)
+		Slide07, // Pillar 1 Blueprint
+		Slide08, // Governance Cadence
+		Slide09, // Portfolio Control
+		Slide10, // Pillar 2 Engine
+		Slide11, // Commercial
+		Slide12, // Personal Context
+		Slide13, // Mandate
+		Slide14, // Catalyst
+		Slide15  // Charter
 	];
 	
 	const maxStep = slides.length - 1;

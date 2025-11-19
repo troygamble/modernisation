@@ -528,56 +528,6 @@ button {
 	align-self: center;
 }
 
-/* Snapshot Diagram */
-.snapshot-diagram {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: auto auto auto;
-	grid-template-areas:
-		"spof . friction"
-		"tooling core scaling"
-		". . resources";
-	gap: 20px;
-	align-items: center;
-	justify-items: center;
-	margin-top: 32px;
-}
-
-.snapshot-core {
-	grid-area: core;
-	height: 180px;
-	width: 180px;
-	border-radius: 50%;
-	background: linear-gradient(145deg, #10101a, #0a0a11);
-	border: 1px solid var(--border-subtle);
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	font-size: 1.1rem;
-	font-weight: 500;
-	padding: 20px;
-	box-shadow: var(--shadow-soft);
-}
-
-.snapshot-node {
-	padding: 16px;
-	border-radius: var(--radius-lg);
-	background: #0d0d16;
-	border: 1px solid var(--border-subtle);
-}
-
-.snapshot-title {
-	font-weight: 500;
-	margin-bottom: 6px;
-}
-
-.snapshot-text {
-	font-size: 0.9rem;
-	color: var(--muted);
-	line-height: 1.6;
-}
-
 .flow-node-sm {
 	font-size: 0.8rem;
 	padding: 4px 10px;
@@ -1095,4 +1045,103 @@ button {
 	color: var(--muted);
 	font-size: 1.5rem;
 	margin: 8px 0;
+}
+
+/* --- Slide 6: Snapshot Diagram Styling --- */
+.snapshot-container {
+	position: relative;
+	max-width: 960px;
+	margin: 32px auto 0;
+}
+
+.snapshot-lines {
+	position: absolute;
+	top: 20px; 
+	bottom: 20px;
+	left: 30%; 
+	right: 30%;
+	width: 40%; /* Constrain lines to the middle area */
+	height: auto;
+	z-index: 0;
+	pointer-events: none;
+	opacity: 0.4;
+}
+
+.snapshot-lines line {
+	stroke: var(--border-subtle);
+	stroke-width: 1.5;
+}
+
+.snapshot-grid {
+	position: relative;
+	z-index: 1;
+	display: grid;
+	grid-template-columns: 1fr 220px 1fr;
+	gap: 32px;
+	align-items: center;
+}
+
+.snapshot-col {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+/* Center Hub */
+.snapshot-core {
+	width: 180px;
+	height: 180px;
+	margin: 0 auto;
+	border-radius: 50%;
+	background: #050509; /* Matches BG to cover lines behind */
+	border: 1px solid var(--border-subtle);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	box-shadow: 0 0 40px rgba(0,0,0,0.3);
+	z-index: 2;
+}
+
+.core-label {
+	font-size: 1rem;
+	font-weight: 600;
+	line-height: 1.4;
+	color: var(--text);
+}
+
+/* Nodes */
+.snapshot-node {
+	padding: 20px;
+	border-radius: 16px;
+	background: #0d0d16;
+	border: 1px solid var(--border-subtle);
+	transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.snapshot-node:hover {
+	border-color: rgba(255, 255, 255, 0.1);
+	transform: translateY(-2px);
+}
+
+.snapshot-title {
+	font-size: 0.95rem;
+	font-weight: 500;
+	margin-bottom: 6px;
+	color: var(--text);
+}
+
+.snapshot-text {
+	font-size: 0.85rem;
+	color: var(--muted);
+	line-height: 1.5;
+}
+
+/* Utilities for this slide */
+.text-danger {
+	color: var(--danger);
+}
+
+.danger-border {
+	border-color: rgba(255, 75, 106, 0.3);
 }

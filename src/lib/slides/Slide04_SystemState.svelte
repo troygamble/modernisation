@@ -1,14 +1,14 @@
 <script>
-	import { fade, fly } from 'svelte/transition';
+	import { fade } from 'svelte/transition';
 </script>
 
-<section in:fly={{ y: 30, duration: 420 }} out:fade={{ duration: 220 }} class="deck-abs-center">
+<section in:fade={{ duration: 420 }} out:fade={{ duration: 220 }} class="deck-abs-center">
 	<div class="deck-block">
 		<div class="deck-wide">
 			<div class="deck-subtle">System state</div>
 			<div class="deck-title-lg">Why the system cannot self-correct</div>
 			<p class="deck-body-lg">
-				Our success and growth have naturally introduced complexity. While our teams excel within their day-to-day functions, the connections <em>between</em> those functions are where friction occurs.
+				Our success and growth have naturally introduced complexity. The core issue is that we are currently using BAU delivery mechanisms to try and implement structural change.
 			</p>
 			<div class="lane-grid fractured">
 				<div class="lane-col">
@@ -24,8 +24,8 @@
 					<div class="lane-sub">Manual processes · Tool friction · Untapped data</div>
 				</div>
 				<div class="lane-col">
-					<div class="lane-head">Executive Oversight</div>
-					<div class="lane-sub">Pulled into operational details · Decision friction</div>
+					<div class="lane-head">The "BAU" Trap</div>
+					<div class="lane-sub" style="color: var(--danger);">Change initiatives buried in operational backlogs</div>
 				</div>
 			</div>
 			<div class="lane-conclusion">
