@@ -30,7 +30,7 @@
 					<div class="pillar-sub">Increase capacity without adding headcount.</div>
 					<ul class="pillar-list">
 						<li class="pill">Process mapping and SPOF removal</li>
-						<li class="pill">Optimising tool utilization & workflow integration</li>
+						<li class="pill">Optimising tool utilisation & workflow integration</li>
 						<li class="pill">Data-driven efficiency gains</li>
 					</ul>
 				</div>
