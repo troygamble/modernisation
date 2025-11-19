@@ -30,7 +30,7 @@
 					<div class="pillar-sub">Increase capacity without adding headcount.</div>
 					<ul class="pillar-list">
 						<li class="pill">Process mapping and SPOF removal</li>
-						<li class="pill">Modernising core business systems</li>
+						<li class="pill">Optimising tool utilization & workflow integration</li>
 						<li class="pill">Data-driven efficiency gains</li>
 					</ul>
 				</div>
@@ -43,7 +43,7 @@
 					<div class="pillar-sub">Convert capability into revenue.</div>
 					<ul class="pillar-list">
 						<li class="pill">SMB automation packages</li>
-						<li class="pill">Co-pilot integration patterns</li>
+						<li class="pill">Product-Led Services integration patterns</li>
 						<li class="pill">Developing a go-to-market strategy</li>
 					</ul>
 				</div>

@@ -11,15 +11,15 @@
 			<div class="two-col mt-lg">
 				<div class="col">
 					<div class="deck-body-lg">
-						We have discussed the need to move beyond the V2 MSP model. The goal is to identify bottlenecks, optimise workflows, and build a company capable of scaling efficiently.
+						This plan answers the specific directive to evolve beyond the V2 MSP model. You identified that internal bottlenecks are currently the primary constraint on our ability to scale.
 					</div>
 					<div class="deck-body-sm deck-mute mt-md">
-						This aligns with previous internal efforts to map friction points and workflows.
+						It operationalises the insights from previous executive sessions regarding process friction and efficiency.
 					</div>
 				</div>
 				<div class="col">
 					<div class="mandate-quote-card">
-						This plan is the direct technical answer to those initiatives. It is designed to free up executive time for high-level strategy by creating a self-correcting delivery engine.
+						This is the execution strategy for that vision. It provides the structural answer to the friction points identified by leadership, designed to free up executive time for high-level strategy.
 					</div>
 				</div>
 			</div>

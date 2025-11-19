@@ -11,10 +11,10 @@
 				<div class="col">
 					<div class="mini-label">The Remit & Authority</div>
 					<ul class="pill-list">
-						<li class="pill pill-strong">Director - Programs, Automation & Modernisation</li>
-						<li class="pill pill-strong">Assume ownership of the PMO uplift.</li>
+						<li class="pill pill-strong" style="color: var(--accent);">Director - Programs, Automation & Modernisation</li>
+						<li class="pill pill-strong">Assume ownership of the Governance & PMO uplift.</li>
 						<li class="pill pill-strong">Authority to audit and optimise internal toolchains.</li>
-						<li class="pill pill-strong">Direct reporting line to the MD for this initiative.</li>
+						<li class="pill pill-strong">Direct reporting line to the MD for this strategic initiative.</li>
 					</ul>
 				</div>
 				<div class="col">

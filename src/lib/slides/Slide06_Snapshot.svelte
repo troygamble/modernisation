@@ -10,16 +10,20 @@
 			As we've grown, the complexity of our connections has outpaced our tools.
 		</div>
 		<div class="snapshot-container">
-			<!-- Background Visual Connectors -->
-			<svg class="snapshot-lines" viewBox="0 0 900 400" preserveAspectRatio="none">
-				<!-- Lines connecting to Center Hub (approx coords based on CSS grid) -->
-				<line x1="0%" y1="16%" x2="50%" y2="50%" vector-effect="non-scaling-stroke" />
-				<line x1="0%" y1="50%" x2="50%" y2="50%" vector-effect="non-scaling-stroke" />
-				<line x1="0%" y1="84%" x2="50%" y2="50%" vector-effect="non-scaling-stroke" />
+			<!-- 
+				Background Connectors 
+				Updated coordinates to create cleaner "spokes"
+			-->
+			<svg class="snapshot-lines" viewBox="0 0 960 420" preserveAspectRatio="none">
+				<!-- Left Side Connectors -->
+				<line x1="0" y1="60" x2="480" y2="210" vector-effect="non-scaling-stroke" />
+				<line x1="0" y1="210" x2="480" y2="210" vector-effect="non-scaling-stroke" />
+				<line x1="0" y1="360" x2="480" y2="210" vector-effect="non-scaling-stroke" />
 				
-				<line x1="100%" y1="16%" x2="50%" y2="50%" vector-effect="non-scaling-stroke" />
-				<line x1="100%" y1="50%" x2="50%" y2="50%" vector-effect="non-scaling-stroke" />
-				<line x1="100%" y1="84%" x2="50%" y2="50%" vector-effect="non-scaling-stroke" />
+				<!-- Right Side Connectors -->
+				<line x1="960" y1="60" x2="480" y2="210" vector-effect="non-scaling-stroke" />
+				<line x1="960" y1="210" x2="480" y2="210" vector-effect="non-scaling-stroke" />
+				<line x1="960" y1="360" x2="480" y2="210" vector-effect="non-scaling-stroke" />
 			</svg>
 			<div class="snapshot-grid">
 				<!-- LEFT COLUMN -->

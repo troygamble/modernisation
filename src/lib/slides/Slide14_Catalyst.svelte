@@ -15,19 +15,19 @@
 			<div class="path-card current-path">
 				<div class="path-title">Our Current Trajectory</div>
 				<ul class="pill-list">
-					<li class="pill">Growth creates complexity</li>
-					<li class="pill">Goodwill absorbs friction</li>
+					<li class="pill">Growth outpaces structure</li>
+					<li class="pill">Reliance on individual heroics</li>
 					<li class="pill">Reacting to market shifts</li>
-					<li class="pill">Incremental improvements</li>
+					<li class="pill">Linear, incremental growth</li>
 				</ul>
 			</div>
 			<!-- The Catalyst -->
 			<div class="path-card new-path">
 				<div class="path-title">With This 90-Day Catalyst</div>
 				<ul class="pill-list">
-					<li class="pill">Structure enables scale</li>
-					<li class="pill">Systems create capacity</li>
-					<li class="pill">Defining the market for customers</li>
+					<li class="pill">Governance enables scale</li>
+					<li class="pill">Systems create leverage</li>
+					<li class="pill">Leading the market conversation</li>
 					<li class="pill">Step-change in performance & revenue</li>
 				</ul>
 			</div>
