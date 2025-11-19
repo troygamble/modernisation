@@ -5,7 +5,7 @@
 <section in:fade={{ duration: 300, delay: 200 }} out:fade={{ duration: 200 }} class="deck-fade deck-rise">
 	<div class="deck-block">
 		<div class="hero-shell">
-			<div class="deck-subtle">The Opportunity for Leadership</div>
+			<div class="deck-subtle">Accelerating Technical Leadership</div>
 			<div class="deck-title-xl hero-title">
 				Structure. Modernise. <span class="accent-text">Monetise.</span>
 			</div>
